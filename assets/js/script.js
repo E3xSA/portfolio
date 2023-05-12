@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Bhat Aasim";
+            document.title = "Portfolio | Saboor Shawkat";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
